@@ -4,6 +4,8 @@
  * and open the template in the editor.
  */
 package javaswing;
+import grafica.Ventana1;//Import paquete.clase
+import javax.swing.JFrame;
 
 /**
  *
