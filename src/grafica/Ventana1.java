@@ -24,6 +24,14 @@ public class Ventana1 extends JFrame
     
     public Ventana1() 
     {
+      
+        panel = new JPanel();
+        label = new JLabel();
+        text = new JTextField(20);
+        boton = new JButton();
+        caja = new JCheckBox();
+        radio = new JRadioButton();
+        
         
     }
     
