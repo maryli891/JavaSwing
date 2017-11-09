@@ -5,10 +5,15 @@
  */
 package grafica;
 
+import javax.swing.*;//Importamos TODO de swing
+import java.awt.*;
 /**
  *
  * @author LC22
  */
-public class Ventana1 {
+public class Ventana1 
+{
+    
+    
     
 }
