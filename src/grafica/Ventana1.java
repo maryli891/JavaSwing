@@ -34,12 +34,18 @@ public class Ventana1 extends JFrame
         
         
         
-        this.add(panel);//Recomendable agregar el JPanel al JFrame
-        panel.add(label);//Agrego UN OBJETO LABEL al JPanel
+        this.add(panel);
+        panel.add(label);
         panel.add(text);
         panel.add(boton);
         panel.add(caja);
         panel.add(radio);
+      
+        
+        label.setText("Nombre");
+        boton.setText("Enviar");
+        panel.setBackground(Color.orange);
+        
     }
     
 }
