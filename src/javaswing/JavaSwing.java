@@ -22,7 +22,7 @@ public class JavaSwing {
         
         Ventana1 ventana = new Ventana1();// Creo un objeto TIPO Window
         ventana.setVisible(true);
-        ventana.setBounds(0, 0, 600, 600);
+        ventana.setBounds(0, 0, 600, 800);
         //La  siguiente intruccion le pone el nombre a la ventana
         ventana.setTitle("Mi primer Interfaz Grafica");
         //La siguiente sentencia es para finalizar el proyecto al cerrar la ventana
