@@ -11,7 +11,7 @@ import java.awt.*;
  *
  * @author LC22
  */
-public class Ventana1 
+public class Ventana1 extends JFrame
 {
     
     JPanel panel;
@@ -20,6 +20,8 @@ public class Ventana1
     JButton boton;
     JCheckBox caja;
     JRadioButton radio;
+    
+    
     
     
 }
