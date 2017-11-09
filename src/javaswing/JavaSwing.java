@@ -16,8 +16,17 @@ public class JavaSwing {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String[] args) 
+    
+    {
+        
+        Ventana1 ventana = new Ventana1();// Creo un objeto TIPO Window
+        ventana.setVisible(true);
+        ventana.setBounds(0, 0, 600, 600);
+        //La  siguiente intruccion le pone el nombre a la ventana
+        ventana.setTitle("Mi primer Interfaz Grafica");
+        //La siguiente sentencia es para finalizar el proyecto al cerrar la ventana
+        ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
     
 }
