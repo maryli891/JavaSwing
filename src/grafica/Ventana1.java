@@ -22,6 +22,9 @@ public class Ventana1 extends JFrame
     JRadioButton radio;
     
     
-    
+    public Ventana1() 
+    {
+        
+    }
     
 }
