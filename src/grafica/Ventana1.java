@@ -14,6 +14,12 @@ import java.awt.*;
 public class Ventana1 
 {
     
+    JPanel panel;
+    JLabel label;
+    JTextField text;
+    JButton boton;
+    JCheckBox caja;
+    JRadioButton radio;
     
     
 }
