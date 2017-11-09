@@ -33,6 +33,13 @@ public class Ventana1 extends JFrame
         radio = new JRadioButton();
         
         
+        
+        this.add(panel);//Recomendable agregar el JPanel al JFrame
+        panel.add(label);//Agrego UN OBJETO LABEL al JPanel
+        panel.add(text);
+        panel.add(boton);
+        panel.add(caja);
+        panel.add(radio);
     }
     
 }
